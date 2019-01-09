@@ -14,6 +14,14 @@ bot: {
 }
 ```
 
+In Jira:
+
+Add webhook (https://developer.atlassian.com/server/jira/platform/webhooks/) with address and port where the bot is listening on, e.g.
+
+```
+bot.hostname.org:8080/jira
+```
+
 ## Starting bot service
 
 ```
