@@ -1,6 +1,6 @@
 # jira2discord
 
-Bot for Jira with Discord server integration.
+Bot for Discord with Jira integration.
 
 ## Configuration
 
