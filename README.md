@@ -1,4 +1,4 @@
-# discord-jira-integration
+# jira2discord
 
 Bot for Jira with Discord server integration.
 
