@@ -1,0 +1,23 @@
+{
+  "name": "i4bot",
+  "version": "1.0.0",
+  "description": "discord bot for i4B server",
+  "main": "server.js",
+  "repository": "git@git.i4b.pl:j.rajski/i4Bot.git",
+  "author": "i4B",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "colors": "^1.3.0",
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "jslint": "^0.12.0",
+    "latinize": "^0.4.0",
+    "node-emoji": "^1.8.1",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "nodemon": "nodemon server.js"
+  }
+}

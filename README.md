@@ -1,0 +1,33 @@
+# discord-jira-integration
+
+Bot for Jira with Discord server integration.
+
+## Configuration
+
+In `config.js`:
+
+```
+bot: {
+    token: '<token>', // discord api bot token
+    port: 8080, // desired port for bot server to listen on
+    ip: '0.0.0.0' // desired ip for bot server
+}
+```
+
+## Starting bot service
+
+```
+$ yarn
+$ yarn start
+```
+
+## Starting bot service (through nodemon)
+
+```
+$ yarn
+$ yarn nodemon
+```
+
+### Building embeds
+
+`https://anidiotsguide_old.gitbooks.io/discord-js-bot-guide/content/examples/using-embeds-in-messages.html`
